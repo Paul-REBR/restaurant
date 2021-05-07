@@ -1,0 +1,1 @@
+//Pt a vedea ce erori am facut in javascript putem vedea in consola la inspect element

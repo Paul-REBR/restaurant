@@ -1,0 +1,62 @@
+body{
+    background-color: cadetblue;
+}
+
+
+.bg{
+   
+background: blue;
+margin: solid 3px;
+}
+ 
+/* functia clear face ca elementul sa se alinieze in pozitia ceruta e mai tare ca floatul
+    
+    functia float alinieaza elementele
+
+*/
+#p1{
+  float: left;
+  width: 45%;
+  background-color: blue;
+}
+
+#p2{
+    float: right;
+    width: 45%;
+    background-color: blue;
+
+}
+
+/* cand vrei sa pui functia float, inainte trebuie sa pui latimea divului daca nu, nu functioneaza
+    
+cand punem position reative atunci elementul la care i amfacut setarile se muta unde l am programat sa se mute fara ca celelalte elemente sa emarga in locul lui
+ cand punem positon absolute at elenemtul executa marginile care l am programat si merge alt element in locul sau
+*/
+
+@media (max-width:750px) {
+      body{
+        background-color: coral;
+      }
+}
+/*
+setarile de la @media se aplica pt dispozitivele specificate mai sus in paranteze
+putem utiliza @media cu 2 specificatii cu and intre ele
+putem utiliza @media cu 2 specificatii si chiar ma multe scu semnele specifice intre ele cum ar fi "and" ","
+click dreapta in browser insepect element iar la toogle device toolbar putem vedea cum ar arata site ul nostru pe alte dispozitive
+cand scriem care sa fie latimea minima si amxima sa aem un interval care sa nu contina capetele adica deschis
+pt responsive design calculator are 12 coloane el se imparte cu divizorii lui 12 deci o coloana e 8.4 la suta noi ca sa avem continut care sa se adapteze la toate dipozitivele trebuie sa punem marginile in procente
+
+*/
+
+
+/*
+exita 12 coloane de layout
+div.log  va edita toate divurie care au clasa log
+
+div, .log va edita toate divurie si toate clasele log
+
+article > p va edita toate elementele p care sunt in interiorul tagurior article
+
+
+*/
+
